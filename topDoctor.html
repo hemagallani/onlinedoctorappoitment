@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP DOCTORS</title>
+   <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link rel="stylesheet" href="vendor/fontawesome/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="contact.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<style>
+    .heading{
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    color:var(--white);
+    font-size: 6rem;
+    letter-spacing: .4rem;
+}
+.doctors .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:2rem;
+}
+
+.doctors .box-container .box{
+    text-align: center;
+    background:#fff;
+    border-radius: .5rem;
+    border:var(--border);
+    box-shadow: var(--box-shadow);
+    padding:2rem;
+}
+
+.doctors .box-container .box img{
+    height: 20rem;
+    border:var(--border);
+    border-radius: .5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.doctors .box-container .box h3{
+    color:var(--black);
+    font-size: 2.5rem;
+}
+
+.doctors .box-container .box span{
+    color:var(--blue);
+    font-size: 1.5rem;
+}
+
+.doctors .box-container .box .share{
+    padding-top: 2rem;
+}
+
+.doctors .box-container .box .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 4.5rem;
+    font-size: 2rem;
+    color:var(--blue);
+    border-radius: .5rem;
+    border:var(--border);
+    margin:.3rem;
+}
+
+.doctors .box-container .box .share a:hover{
+    background:var(--blue);
+    color:#fff;
+    box-shadow: var(--box-shadow);
+}
+
+</style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" >
+        <div class="container">
+    
+          <a class="navbar-brand js-scroll-trigger" href="index.php" style="margin-top: 10px;margin-left:-65px;font-family: 'IBM Plex Sans', sans-serif;"><h4><i class="fa fa-user-plus" aria-hidden="true"></i>&nbsp GLOBAL HOSPITALS</h4></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" style="margin-right: 40px;">
+                <a class="nav-link js-scroll-trigger" href="index.php" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>HOME</h6></a>
+              </li>
+    
+              <li class="nav-item" style="margin-right: 40px;">
+                <a class="nav-link js-scroll-trigger" href="services.html" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>ABOUT US</h6></a>
+            
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger" href="topDoctor.html" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>TOP DOCTORS</h6></a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger" href="contact.html" style="color: white;font-family: 'IBM Plex Sans', sans-serif;"><h6>CONTACT</h6></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    
+
+   
+    <section class="doctors" id="doctors">
+
+        <h1 class="heading"> OUR <span>TOP DOCTORS</span> </h1>
+        
+        
+  
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/doc-1.jpg" alt="">
+                <h3>ALIA BHATT</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+            <div class="box">
+                <img src="images/doc-2.jpg" alt="">
+                <h3>JOHN DEO</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+            <div class="box">
+                <img src="images/doc-3.jpg" alt="">
+                <h3>AMIT KAPOOR</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+            <div class="box">
+                <img src="images/doc-4.jpg" alt="">
+                <h3>ARUN</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+            <div class="box">
+                <img src="images/doc-5.jpg" alt="">
+                <h3>ASHOK</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+            <div class="box">
+                <img src="images/doc-6.jpg" alt="">
+                <h3>DINESH</h3>
+                <span>expert doctor</span>
+                <!-- <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div> -->
+            </div>
+    
+        </div>
+    
+    </section>
+      
+</body>
+</html>
